@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Tools QA">
-    <test verbose="2" preserve-order="true" name="Elements">
+    <test verbose="2" preserve-order="true" name="ExamenT3">
         <classes>
             <class name="Pages.ExamenT3"/>
         </classes>

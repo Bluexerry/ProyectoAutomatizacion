@@ -1101,9 +1101,7 @@ public class Widgets {
 
         // Paso 2
         // Accion - Click en "Old Style Select Menu"
-        Utils.chromeDriver.findElementByXPath(
-                "//select[@id='oldSelectMenu']")
-                .click();
+        Utils.chromeDriver.findElementByXPath("//select[@id='oldSelectMenu']").click();
         Thread.sleep(1000);
 
         // Encuentra y selecciona la opción deseada del menú desplegable
